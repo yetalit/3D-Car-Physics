@@ -15,3 +15,15 @@ This project can arguably be considered as a successor to these studies:
 ## Documentation & Demo Project
 * Click [Here](/3D_Car_Physics_Simulation_Focused_on_Games.pdf) for the full documentation.
 * Demo project files are located at `Assets` folder.
+
+## Notes
+If you want to check the demo scene, Make sure you're using the Built-In Render Pipeline; You can activate it this way:
+* In your project settings → graphics, remove the default render pipeline asset.
+* In your project settings → quality settings, remove the render pipeline asset for each quality level.
+
+### How to Play
+* Press `mouse left` button to increase the throttle position.
+* Press `mouse right` button to decrease the throttle position.
+* Press `mouse middle` button to brake.
+* Use `A` and `D` keys to turn left and right.
+* Press `Enter` key to restart the scene.
