@@ -41,8 +41,8 @@ namespace CPH
         public float restLength_R = 0.5f;
         public float springTravel = 0.2f;
         public float sphereCastRatio = 0.45f;
-        public float max_lat_wt = 1300;
-        public float max_long_wt = 13000;
+        public float max_lat_wt = 1300; // Maximum lateral weight transfer
+        public float max_long_wt = 13000; // Maximum longitudinal weight transfer
         public float Cdrag = 0.12f;
         public float Crr = 3f;
         public float CS_R = 5.2f; // Cornering stiffness
