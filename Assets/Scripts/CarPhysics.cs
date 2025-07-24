@@ -306,7 +306,7 @@ namespace CPH
                     car.cartype.wheels[i].position = rayPoints[i] + pointUp * (-hit.distance + (1f - car.cartype.sphereCastRatio) * car.cartype.wheelradius);
                     float currentSpringLength = hit.distance - (1f - car.cartype.sphereCastRatio) * car.cartype.wheelradius;
                     float springVelocity = Vector3.Dot(Utils.GetPointVelocity(car, rayPoints[i]), pointUp);
-					bool isWeakSuspension = Mathf.Abs(Vector3.Angle(hit.normal, pointUp)) > car.cartype.suspension_activate_deg
+					bool isWeakSuspension = Mathf.Abs(Vector3.Angle(hit.normal, pointUp)) > car.cartype.suspension_activate_deg;
                     if (i < 2)
                     {
                         float springCompression = car.cartype.restLength_F - currentSpringLength;
