@@ -16,6 +16,13 @@ This project can arguably be considered as a successor to these studies:
 * Click [Here](/3D_Car_Physics_Simulation_Focused_on_Games.pdf) for the full documentation.
 * Demo project files are located at `Assets` folder.
 
+### Customizing Collisions
+As the final linear and angular velocity is given to the physics engine, by changing the mass value of RigidBody, you can manipulate the collision responses to your car without affecting its actual movement:
+
+![Mass[div]10](./GIFs/Mass[div]10.gif)![Mass](./GIFs/Mass.gif)![Mass[mul]10](./GIFs/Mass[mul]10.gif)
+
+(Left: mass=Mass/10, Middle: mass=Mass, Right: mass=Mass*10)
+
 ## Notes
 If you want to check the demo scene, Make sure you're using the Built-In Render Pipeline; You can activate it this way:
 * In your project settings → graphics, remove the default render pipeline asset.
