@@ -19,7 +19,9 @@ This project can arguably be considered as a successor to these studies:
 ### Customizing Collisions
 As the final linear and angular velocity is given to the physics engine, by changing the mass value of RigidBody, you can manipulate the collision responses to your car without affecting its actual movement:
 
-![Mass[div]10](./GIFs/Mass[div]10.gif)![Mass](./GIFs/Mass.gif)![Mass[mul]10](./GIFs/Mass[mul]10.gif)
+![Mass[div]10](./GIFs/Mass[div]10.gif)
+![Mass](./GIFs/Mass.gif)
+![Mass[mul]10](./GIFs/Mass[mul]10.gif)
 
 (Left: mass=Mass/10, Middle: mass=Mass, Right: mass=Mass*10)
 
